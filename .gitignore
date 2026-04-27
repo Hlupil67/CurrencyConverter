@@ -1,0 +1,38 @@
+# Файлы с данными
+history.json
+history_export_*.json
+*.json
+
+# Конфигурация с API-ключом (НИКОГДА не коммитьте ключ!)
+config.py
+*.key
+*.secret
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+
+# Резервные копии
+*.bak
+*.tmp
+*.backup
